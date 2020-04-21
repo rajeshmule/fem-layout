@@ -6,16 +6,28 @@ ul {
 	padding: 0;
 	margin: 0;
 	border: 1px dotted red;
-}
+  display: flex;
+  flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+/* 	align-content: center; */
+/* 	height: 200px; */
+	
+  }
 li {
 	border: 1px solid #999;
 	margin: 0.5em;
 	padding: 0.5em;
+	flex-basis: 20%;
+/* 	flex-grow: 1; */
+/* 	flex-shrink: 5; */
+	align-self: center;
 }
 
-
-
-
-
-
-
+ .flex2{ 
+  border: 5px dotted blue; 
+  order: 2;
+  flex: 1 0 33%;
+/* 	 flex-grow: 2; */
+/* 	 flex-shrink: 2; */
+ }
