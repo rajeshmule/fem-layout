@@ -1,4 +1,4 @@
-Grid Properties
+	Grid Properties
 
 Parent (Grid Container)
 	display: grid | inline-grid;
